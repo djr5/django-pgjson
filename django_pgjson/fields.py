@@ -11,7 +11,7 @@ import psycopg2.extras
 
 from django import forms
 from django.db import models
-from django.db.backends.postgresql_psycopg2.version import get_version
+from django.db.backends.postgresql.version import get_version
 from django.conf import settings
 from django.utils import six
 
